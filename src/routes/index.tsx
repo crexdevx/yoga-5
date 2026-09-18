@@ -11,6 +11,7 @@ import courseDiplomaYoga from "@/assets/course-diploma-yoga.webp";
 import courseDiplomaFoundations from "@/assets/course-diploma-foundations.webp";
 import courseMeditation from "@/assets/course-meditation.webp";
 import courseYogaKids from "@/assets/course-yoga-kids.webp";
+import newsYogaDayGuwahatiCityCentre from "@/assets/news-yoga-day-guwahati-city-centre.webp";
 import newsYogaDayCelebration from "@/assets/news-yoga-day-celebration.webp";
 import newsTopFiveGuwahati from "@/assets/news-top-five-guwahati.webp";
 import newsNationalYogaSports from "@/assets/news-national-yoga-sports.webp";
@@ -113,6 +114,15 @@ const reviews = [
 ];
 
 const news = [
+  {
+    source: "Facebook Reel",
+    title: "Yoga Day celebrated at Guwahati City Centre",
+    description:
+      "International Yoga Day was celebrated at Guwahati City Centre with a vibrant community session bringing together yoga practitioners and wellness enthusiasts.",
+    image: newsYogaDayGuwahatiCityCentre,
+    alt: "Yoga Day Celebration at Guwahati City Centre poster",
+    href: "https://www.facebook.com/reel/1389488433040866/?app=fbl",
+  },
   {
     source: "The Assam Tribune",
     title: "Yoga Day celebration across Assam",
