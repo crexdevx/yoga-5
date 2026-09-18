@@ -67,6 +67,7 @@ import propsGalleryOne from "@/assets/props-gallery-1.webp";
 import ttcHero from "@/assets/ttc-hero.webp";
 import ttcGalleryOne from "@/assets/ttc-gallery-1.webp";
 import ttcGalleryTwo from "@/assets/ttc-gallery-2.webp";
+import meditationCharacter from "@/assets/meditation-character.webp";
 import { Button } from "@/components/ui/button";
 import { FloatingHeader } from "@/components/floating-header";
 
@@ -282,6 +283,16 @@ function ProgramsPage() {
     <main className="min-h-screen bg-course-canvas text-course-ink">
       <section className="course-hero relative overflow-hidden px-4 pb-16 pt-28 sm:px-6 sm:pb-20 sm:pt-36 lg:px-8 lg:pb-24">
         <FloatingHeader />
+        <img
+          src={meditationCharacter}
+          alt=""
+          aria-hidden="true"
+          className="pointer-events-none absolute -right-24 top-12 h-72 w-72 object-contain opacity-30 sm:-right-8 sm:top-8 sm:h-96 sm:w-96 lg:right-20 lg:top-2 lg:h-[32rem] lg:w-[32rem]"
+          width={900}
+          height={900}
+          loading="eager"
+          decoding="async"
+        />
         <div className="relative z-10 mx-auto max-w-6xl">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-course-hero-muted">North East Yoga & Meditation Centre</p>
           <h1 className="mt-5 max-w-3xl font-serif text-4xl leading-tight text-course-hero-foreground sm:text-6xl lg:text-7xl">
